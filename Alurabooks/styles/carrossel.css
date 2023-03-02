@@ -1,3 +1,5 @@
+/* PARTE 1: CARROSSEL */
+
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -19,4 +21,80 @@
 .swiper-pagination {
     position: initial;
     margin: 0.5em 0;
+}
+
+/* PARTE 2: CARD */
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em; /* Espaçamento entre os próprios elementos */
+}
+
+.botoes {
+    display: flex;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descricao__titulo_livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao_texto {
+    font-size: 14px;
+}
+
+.botoes__item {
+    margin: 0.5em;
+}
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* PEQUENAS ALTERAÇÕES NO MAIS VENDIDOS E CARD DE AUTORA DO MÊS, REAPROVEITANDO CÓDIGO */
+
+.card2 {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1.5em; /* Espaçamento entre os próprios elementos */
+}
+
+.botoes__ancora2 {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    margin-top: 0.5em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.botoes__item2 {
+    margin-top: 1em;
 }
